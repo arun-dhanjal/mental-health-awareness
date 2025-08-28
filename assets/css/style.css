@@ -1,7 +1,17 @@
 /* Google fonts
 Placeholder text */
 
-/* Hero section */
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CSS rule to override Bootstrap margin-bottom */
+p {
+  margin-bottom: 0;
+}
 
 /* CSS Variables */
 :root {
@@ -29,9 +39,12 @@ Placeholder text */
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 } /* replaces Bootstrap black icon with white icon */
 
-
 .navbar-toggler {
   border: 1px solid white;
+  background-color: var(--highlight-color);
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -o-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
 } /* makes menu button border white */
 
 .navbar-toggler:hover {
@@ -41,6 +54,11 @@ Placeholder text */
 .navbar-toggler:focus {
   box-shadow: 0 0 0 0.25rem var(--highlight-color);
 } /* overrides the default black focus glow to essentially make it invisible */
+
+/* Main section background colour */
+body {
+  background-color: var(--secondary-color);
+}
 
 /* Hero section */
 
@@ -56,12 +74,53 @@ Placeholder text */
 
 .hero-content {
   max-width: 600px;
+  font-weight: 500;
 }
 
 .hero-content h1 {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 
 .hero-content p {
     font-size: 0.7rem;
 }
+
+
+/* Footer section */
+#footer {
+  color: var(--highlight-color-light);
+  background-color: var(--highlight-color);
+  font-size: 0.7rem;
+  font-weight: 500;
+}
+
+#footer i {
+  color: var(--primary-color);
+  font-size: 2rem;
+  margin: 0 0.3rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  -o-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+#footer i:hover {
+  color: var(--secondary-color);
+}
+
+/* Grid visualisation */
+
+/* .container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12,
+.col-10,
+.col-8,
+.col-6,
+.col-4,
+.col-3,
+.col-2 {
+    border: 2px solid white;
+    background-color: lightgray;
+} */
