@@ -23,6 +23,27 @@ Placeholder text */
     color: var(--highlight-color-light);
 }
 
+/* Navbar menu button CSS to override Bootstrap and turn to white colour */
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+} /* replaces Bootstrap black icon with white icon */
+
+
+.navbar-toggler {
+  border: 1px solid white;
+} /* makes menu button border white */
+
+.navbar-toggler:hover {
+  background-color: var(--primary-color);
+} /* makes the button change colour when hovered over */
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0.25rem var(--highlight-color);
+} /* overrides the default black focus glow to essentially make it invisible */
+
+/* Hero section */
+
 .hero {
   background-image: url('../images/hero-image.webp');
   background-size: cover;
