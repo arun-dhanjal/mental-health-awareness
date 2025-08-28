@@ -85,6 +85,19 @@ body {
     font-size: 0.7rem;
 }
 
+/* Common Issues section */
+#common-signs .card {
+  box-shadow: 0 0 10px 5px var(--highlight-color);
+}
+
+#common-signs .img {
+  border-radius: 50px;
+}
+
+#common-signs .card-body,
+#common-signs .card-footer {
+  background-color: rgb(222, 222, 222);
+}
 
 /* Footer section */
 #footer {
@@ -110,6 +123,7 @@ body {
 /* Grid visualisation */
 
 /* .container,
+.container-fluid,
 .row {
     border: 2px solid black;
 }
