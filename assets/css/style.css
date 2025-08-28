@@ -3,6 +3,26 @@ Placeholder text */
 
 /* Hero section */
 
+/* CSS Variables */
+:root {
+    /* --primary-font: yet to decide
+    --secondary-font: yet to decide */
+    --primary-color: #7A847Aff; /* pastel green */
+    --secondary-color: #C9B599ff; /* beige */
+    --highlight-color: #3F524Aff; /* pastel dark green */
+    --highlight-color-light: #ffffff; /* white */
+}
+
+/* Navigation */
+
+#navigation {
+  background-color: var(--highlight-color);
+}
+
+#navigation a {
+    color: var(--highlight-color-light);
+}
+
 .hero {
   background-image: url('../images/hero-image.webp');
   background-size: cover;
