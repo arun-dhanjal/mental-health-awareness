@@ -27,6 +27,7 @@ p {
 
 body {
   padding-top: 56px; /* pushes the top of the header down under fixed navbar */
+  font-weight: 500;
 }
 
 section {
@@ -91,10 +92,6 @@ body {
   font-size: 2.5rem;
 }
 
-.hero-content p {
-    font-size: 0.7rem;
-}
-
 /* Cards */
 main .card {
   box-shadow: 0 0 10px 5px var(--highlight-color);
@@ -109,7 +106,7 @@ main .card-footer {
 #footer {
   color: var(--highlight-color-light);
   background-color: var(--highlight-color);
-  font-size: 0.7rem;
+  /* font-size: 0.7rem; */
   font-weight: 500;
 }
 
@@ -124,6 +121,52 @@ main .card-footer {
 
 #footer i:hover {
   color: var(--secondary-color);
+}
+
+/* Media queries */
+
+/* Small devices (phones, up to 768px) */
+@media screen and (max-width: 768px) {  
+  
+  /* font size */
+    body {
+        font-size: 0.7rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* Make all service cards the same height for consistency */
+    main .card {
+        min-height: 470px;
+    }
+
+    /* font size */
+    body {
+        font-size: 0.8rem;
+    }    
+}
+
+/* Large devices (small laptops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* font size */
+    body {
+        font-size: 0.9rem;
+    }
+   /* Make all service cards the same height for consistency */  
+    main .card {
+        min-height: 515px;
+    }
+}
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* font size */
+    body {
+        font-size: 1rem;
+    }    
 }
 
 /* Grid visualisation */
