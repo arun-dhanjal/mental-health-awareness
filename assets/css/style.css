@@ -23,6 +23,13 @@ p {
     --highlight-color-light: #ffffff; /* white */
 }
 
+/* Global styles */
+
+body {
+  padding-top: 56px; /* pushes the top of the header down under fixed navbar */
+}
+
+
 /* Navigation */
 
 #navigation {
