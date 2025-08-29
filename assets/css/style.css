@@ -74,7 +74,7 @@ body {
 /* Hero section */
 
 .hero {
-  background-image: url('../images/hero-image.webp');
+  background-image: url('../images/hero-image.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -144,7 +144,7 @@ main .card-footer {
     /* font size */
     body {
         font-size: 0.8rem;
-    }    
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -157,6 +157,11 @@ main .card-footer {
    /* Make all service cards the same height for consistency */  
     main .card {
         min-height: 515px;
+    }
+
+    /* higher pixel hero image on larger screens */
+    .hero {
+      background-image: url('../images/hero-image.webp');
     }
 }
 
