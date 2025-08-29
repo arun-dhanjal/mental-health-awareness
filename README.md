@@ -206,6 +206,8 @@ Wireframes have not been used in the design of page layouts on this occasion. In
 
 ### Features
 
+Following on from the initial layout, the current set of features are as below. Note that some features have not yet been implemented, and some of the implemented features differ slightly to the intended layout, both as a result of changing design choices as the build work progressed, and also due to some coding limitations.
+
 * Navigation bar:
 
   * The website logo and name is on the left.
