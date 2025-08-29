@@ -38,6 +38,10 @@ section {
     color: var(--highlight-color-light);
 }
 
+#navigation img {
+  height: 30px;
+}
+
 /* Navbar menu button CSS to override Bootstrap and turn to white colour */
 
 .navbar-toggler-icon {
