@@ -1,6 +1,3 @@
-/* Google fonts
-Placeholder text */
-
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -8,15 +5,8 @@ Placeholder text */
     box-sizing: border-box;
 }
 
-/* CSS rule to override Bootstrap margin-bottom */
-p {
-  margin-bottom: 0;
-}
-
 /* CSS Variables */
 :root {
-    /* --primary-font: yet to decide
-    --secondary-font: yet to decide */
     --primary-color: #7A847Aff; /* pastel green */
     --secondary-color: #C9B599ff; /* beige */
     --highlight-color: #3F524Aff; /* pastel dark green */
@@ -28,6 +18,10 @@ p {
 body {
   padding-top: 56px; /* pushes the top of the header down under fixed navbar */
   font-weight: 500;
+}
+
+p {
+  margin-bottom: 0; /* CSS rule to override Bootstrap margin-bottom */
 }
 
 section {
@@ -106,7 +100,6 @@ main .card-footer {
 #footer {
   color: var(--highlight-color-light);
   background-color: var(--highlight-color);
-  /* font-size: 0.7rem; */
   font-weight: 500;
 }
 
@@ -173,22 +166,3 @@ main .card-footer {
         font-size: 1rem;
     }    
 }
-
-/* Grid visualisation */
-
-/* .container,
-.container-fluid,
-.row {
-    border: 2px solid black;
-}
-
-.col-12,
-.col-10,
-.col-8,
-.col-6,
-.col-4,
-.col-3,
-.col-2 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
