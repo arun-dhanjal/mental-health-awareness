@@ -25,7 +25,7 @@ The Healthy Minds website is designed to be informative, easy to navigate, and r
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks-Libraries--Programs-Used)
 
 * [Deployment](#Deployment)
 
