@@ -1,185 +1,350 @@
-# PROJECT NAME TO GO HERE
+# Healthy Minds website
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
+The Healthy Minds website is designed to be informative, easy to navigate, and responsive. It presents information on mental health awareness, including signs to look out for and ways to address mental health challenges.
 
-Add a Blurb about the site here, what does it do, why did you build it?
+![Healthy Minds website shown on a range of devices](/readme-docs/devices-showcase.jpg)
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
-
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
-
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
-
----
+[View Healthy Minds on Github Pages](https://arun-dhanjal.github.io/mental-health-awareness/)
 
 ## CONTENTS
 
-* [User Experience](#user-experience-ux)
-  * [User Stories](#user-stories)
+* [User Stories](#User-Stories)
+  * [User Story 1](#user-story-1-useful-information-on-recognising-and-addressing-mental-health-issues-1--must-have)
+  * [User Story 2](#user-story-2-a-responsive-website-that-works-well-on-all-devices-2--must-have)
+  * [User Story 3](#user-story-3-a-calming-well-organised-and-easy-to-navigate-website-3--must-have)
+  * [User Story 4](#user-story-4-positive-affirmations-and-pleasant-imagery-4--should-have)
+  * [User Story 5](#user-story-5-upcoming-events-and-sign-up-5--could-have)
 
-* [Design](#design)
-  * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
+* [Design](#Design)
+  * [Colour Scheme](#Colour-Scheme)
+  * [Typography](#Typography)
+  * [Imagery](#Imagery)
+  * [Page Layout](#Page-Layout)
+  * [Features](#Features)
+  * [Accessibility](#Accessibility)
 
-* [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
-  * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
+* [Technologies Used](#Technologies-Used)
+  * [Languages Used](#Languages-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+* [Deployment](#Deployment)
 
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
+* [Testing](#Testing)
+  * [W3C Validator: HTML](#W3C-Validator-HTML)
+  * [W3C Validator: CSS](#W3C-Validator-CSS)
+  * [Lighthouse: mobile](#Lighthouse-mobile)
+  * [Lighthouse: desktop](#Lighthouse-desktop)
 
-* [Testing](#testing)
+* [Credits](#Credits)
 
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
+- - -
 
----
+## User Stories
 
-## User Experience (UX)
+### User Story 1: Useful information on recognising and addressing mental health issues (#1 – must have)
+ 
+As a very busy university student I would like to get information on warning signs of mental health issues so that I can recognise when I’m being affected by them and take action to address them.
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+##### Acceptance Criteria
+* A section on the webpage with easy-to-digest information on how to recognise if you are experiencing mental health issues.
+* A section on the webpage with easy-to-digest information on how to manage mental health issues.
 
-### User Stories
+#### Tasks
+* Create a section in the main body of the webpage with at least 4 cards that demonstrate warning signs of mental health issues.
+* Create a section in the main body of the webpage with at least 4 cards that demonstrate actions that can be taken to address mental health issues.
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+### User Story 2: A responsive website that works well on all devices (#2 – must have)
+
+As a mental health coach that works with clients of varying tech-literacy, I would like to recommend a mental health awareness website to them that works on all devices, so that each of my clients can access it, regardless of the tech they have access to.
+
+#### Acceptance Criteria
+* The website is responsive and fully functional on all device sizes, including phones, tablets, laptops, and desktops.
+
+#### Tasks
+* Use Bootstrap to handle responsiveness, ensuring the correct  Bootstrap classes are used to create separate layouts for each device size.
+
+### User Story 3: A calming, well-organised, and easy-to-navigate website (#3 – must have)
+
+As an extremely busy mother of 3 children, I want a resource that can help me manage my high stress levels as easily and as pleasantly as possible, so that I don’t exacerbate my level of stress.  
+
+#### Acceptance Criteria
+* The layout of the webpage should be well-organised and easy-to-navigate.
+* The design (font and colour choices) should be calming.
+
+#### Tasks
+* Implement all elements on the webpage in a highly organised fashion.
+* Implement navigation functionality that is easy-to-use and clearly signposted.
+* Use fonts and colours that are subdued and complementary as opposed to bright and garish.
+
+### User Story 4: Positive affirmations and pleasant imagery (#4 – should have)
+
+As a school student revising for my exams I would like a quick-and-easy way to feel better when I’m overwhelmed so that I can get back to my studies.
+
+#### Acceptance Criteria
+* A section on the webpage with positive affirmations and pleasant imagery to quickly address the needs of users that are stressed or overwhelmed.
+
+#### Tasks
+* Create a section on the webpage with at least 8 positive affirmations.
+* Accompany each affirmation with a pleasant image.
+
+### User Story 5: Upcoming events and sign-up (#5 – could have)
+
+As a psychologist that works in the field of mental health, I would like to get information on any upcoming mental health events and sign up to them so I can network and expand my knowledge in this area.
+
+#### Acceptance Criteria
+* A section on the webpage with a list of upcoming mental health events and the option to sign up to them.
+
+#### Tasks
+* Create a table showing the following details for all upcoming mental health events: event name; topic; speakers; date.
+* Create a sign-up form next to the events table that allows the following inputs: Full Name; Email Address; Phone Number; chosen event (dropdown).
+* Ensure the input fields have automatic validation.
+* Create a success page that shows after successful signup.
+
+- - -
 
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
-
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+![Healthy Minds Website Colour Palette](/readme-docs/Healthy%20Minds%20palette.png)
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+The website uses a palette of pastel greens and browns inspired by the hero image of the website, which itself was generated by Copilot. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
-
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
-
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+Although other fonts could have been implemented, the default fonts work very well with the design of the website and so no other fonts have been selected. However, other fonts could be used in future iterations, in which case Google Fonts will be utilised for this purpose.
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+All images, including the hero image and the card images, were generated by Microsoft Copilot based on the website author's prompts. These prompts were written with the intent to align with the colour scheme noted above.
 
-### Wireframes
+### Page Layout
 
-Add the images or links for your wireframes here.
+Wireframes have not been used in the design of page layouts on this occasion. Instead, the intended page layout is expressed below. Note that sm, md, lg, and xl refer to Bootstrap breakpoints.
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
 
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+#### Navigation
+* Icon and site name on the left (should redirect back to the top of the page when clicked)
+* Navigation links on the right: Home, Signs, Strategies, Affirmations, Events, Contact
 
-## Features
+  * *sm: collapsed menu*
+  * *md: collapsed menu*
+  * *lg: expanded menu*
+  * *xl: expanded menu*
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
 
-This section can be used to explain what pages your site is made up of.
+#### Header
+* Hero image with site name and some intro text on top
 
-### General features on each page
+  * *sm: image stretches full width; text stretches 10 columns*
+  * *md: image stretches full width; text stretches 8 columns*
+  * *lg: image stretches full width; text stetches 6 columns*
+  * *xl: image stretches full width; text stretches 4 columns*
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+#### Signs of Mental Health Challenges
+* 4 cards, each showing a separate sign of mental health challenges
+* Each card will show an image, a heading, and some text
 
-### Future Implementations
+  * *sm: centred heading and text; all cards stacked*
+  * *md: centred heading and text; 2 columns of cards*
+  * *lg: left-aligned heading and text; 2 columns of cards*
+  * *xl: left-aligned heading and text; 2 columns of cards*
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+
+#### Strategies to Manage Mental Health Challenges
+* 4 cards, each showing a separate strategy to manage mental health
+* Each card will show an image, a heading, and some text
+
+  * *sm: centred heading and text; all cards stacked*
+  * *md: centred heading and text; 2 columns of cards*
+  * *lg: right-aligned heading and text; 2 columns of cards*
+  * *xl: right-aligned heading and text; 2 columns of cards*
+
+
+#### Positive Affirmations
+* 8 images on a carousel, each with a short positive affirmation on it
+* The carousel should have controls and should scroll automatically
+
+  * *sm: centred heading and text above centred carousel*
+  * *md: centred heading and text above centred carousel*
+  * *lg: left-aligned heading and text with right-aligned carousel*
+  * *xl: left-aligned heading and text with right-aligned carousel*
+
+
+#### Events
+* An Events timetable showing 5 upcoming events with names, topics, speakers, and dates
+* A short signup form with inputs for Full Name, Email Address, selected Event (from a dropdown), and a submit button
+
+  * *sm: centred events heading and text and timetable and signup form; all elements stacked*
+  * *md: centred events heading and text and timetable and signup form; all elements stacked*
+  * *lg: events heading and text and timetable on the left; signup form on the right*
+  * *xl: events heading and text and timetable on the left; signup form on the right*
+
+
+#### Successful signup page (separate page)
+* Upon successful signup to an event, a success page will show up
+* This page will have a message advising on the successful signup
+* It will also have a button to return to the home page
+* This page will also have the Nav bar at the top and the footer at the bottom
+
+  * *sm: centred text above button*
+  * *md: centred text above button*
+  * *lg: centred text above button*
+  * *xl: centred text above button*
+
+
+#### Footer
+* Note on who designed the website
+* Contact details at the bottom left
+* Social media links (just icons)
+
+  * *sm: all 3 elements stacked and centred*
+  * *md: all 3 elements stacked and centred*
+  * *lg: designer name on left; social media icons in middle; contact details on right*
+  * *xl: designer name on left; social media icons in middle; contact details on right*
+
+### Features
+
+* Navigation bar:
+
+  * The website logo and name is on the left.
+
+  * Navigation to other sections of the webpage are possible via the top right.
+
+  * On mobile and tablet the navigation options are available via a dropdown menu. On larger devices the menu options are always visible.
+
+  ![Navigation bar screenshot](/readme-docs/navigation-bar.jpg)
+
+* Hero section:
+
+  * An image of a calming landscape spans the full width of the page and 50% of the height of the page.
+
+  * The website name and some introductory text is centered on this image in white text.
+
+  ![Hero section screenshot](/readme-docs/hero-section.jpg)
+
+* Common Signs section:
+
+  * This section has a title with some explanatory text in black.
+
+  * 4 cards are displayed, each with information on common signs of mental health challenges.
+
+  * Each card contains an associated image, a title, and some text.
+
+  * The layout of the 4 cards adapts to the screen size being used.
+
+  ![Common Signs section screenshot](/readme-docs/common-signs-section.jpg)
+
+* Strategies section:
+
+  * This section has a title with some explanatory text in black.
+
+  * 4 cards are displayed, each with information on strategies to tackle mental health challenges.
+
+  * Each card contains an associated image, a title, and some text.
+
+  * The layout of the 4 cards adapts to the screen size being used.
+
+  ![Strategies section screenshot](/readme-docs/strategies-section.jpg)
+
+* Footer:
+
+  * This section contains: information on the website creator; social media links; contact information.
+
+  * The website creator information is left aligned and in white text.
+
+  * The social media links are center aligned and have a hover effect implemented.
+
+  * The contact information is right aligned and in white text.
+
+  ![Footer screenshot](/readme-docs/footer.jpg)
+
+* Future implementations:
+
+  * The Positive Affirmations section of the website is yet to be created, but can be included in a future iteration.
+
+  * The Events timetable and signup for is yet to be created, but can be included in a future iteration.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
+* Using semantic HTML.
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
+* Using descriptive alt attributes on images on the site.
 
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+
+- - -
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+Git - For version control.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+GitHub - To save and store the files for the website.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+Bootstrap Version 5.3 - Code throughout the website, but mainly for the navigation bar and cards, were used and modified. Additional CSS styling was also implemented in style.css.
 
-## Deployment & Local Development
+Font Awesome - For the social media icons.
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-### Deployment
+Microsoft Copilot - For code queries and generation of text and images.
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+[Tiny PNG](https://tinypng.com/) - To compress images.
 
-### Local Development
+[Favicon.io](https://favicon.io/) - To create favicons.
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
+[Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
-#### How to Fork
+- - -
 
-Place instructions on how to fork your project here.
+## Deployment
 
-#### How to Clone
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
 
-Place instructions on how to clone your project here.
+1. Log in to Github.
+2. Find the repository for this project: mental-health-awareness.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+- - -
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along, as well as Microsoft Copilot to query specific coding logic queries.
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+More comprehensive testing was carried out on completion of the build using dedicated validation software, as shown below.
+
+### W3C Validator: HTML
+
+![HTML validation screenshot](/readme-docs/html-validation.jpg)
+
+### W3C Validator: CSS
+
+![CSS validaton screenshot](/readme-docs/css-validation.jpg)
+
+### Lighthouse: mobile
+
+![Lighthouse mobile validation screenshot](/readme-docs/lighthouse-mobile-validation.jpg)
+
+### Lighthouse: desktop
+
+![Lighthouse desktop validation screenshot](/readme-docs/lighthouse-desktop-validation.jpg)
+
+- - -
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
+### Content and images
 
-The Credits section is where you can credit all the people and sources you used throughout your project.
-
-### Code Used
-
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
-
-### Content
-
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
-
-###  Media
-
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
-  
-###  Acknowledgments
-
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+Content for the website was primarily generated by Microsoft Copilot using prompts from the website creator, Arun Dhanjal. This includes the hero image, section headings, card images, and card text content. The website name and hero text was thought of by Arun Dhanjal directly.
