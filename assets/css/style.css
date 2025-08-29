@@ -85,17 +85,13 @@ body {
     font-size: 0.7rem;
 }
 
-/* Common Issues section */
-#common-signs .card {
+/* Cards */
+main .card {
   box-shadow: 0 0 10px 5px var(--highlight-color);
 }
 
-#common-signs .img {
-  border-radius: 50px;
-}
-
-#common-signs .card-body,
-#common-signs .card-footer {
+main .card-body,
+main .card-footer {
   background-color: rgb(222, 222, 222);
 }
 
