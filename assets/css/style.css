@@ -29,6 +29,9 @@ body {
   padding-top: 56px; /* pushes the top of the header down under fixed navbar */
 }
 
+section {
+  padding-top: 56px; /* pushes the top of the section down under the fixed navbar when navigated to */
+}
 
 /* Navigation */
 
